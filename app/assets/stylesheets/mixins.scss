@@ -1,0 +1,35 @@
+/* rounded corners. */
+
+@mixin rounded-corners($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -khtml-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin rounded-corners-xsmall {
+  @include rounded-corners(5px);
+}
+
+@mixin rounded-corners-small {
+  @include rounded-corners(8px);
+}
+
+@mixin rounded-corners-medium {
+  @include rounded-corners(12px);
+}
+
+@mixin rounded-corners-large {
+  @include rounded-corners(20px);
+}
+
+/* shadow */
+
+@mixin shadow {
+  box-shadow: 8px 8px 3px rgba(151, 151, 151, 0.65);
+}
+
+/* trimming */
+
+$default-trim-color: #ee6600;
+$default-trim-color-dark: #D45500;

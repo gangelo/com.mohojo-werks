@@ -1,0 +1,154 @@
+@import 'mixins';
+
+/* Bright
+$base-background-color: #ee6600;
+$base-color: #333; */
+
+/* Lite
+$base-background-color: #ff9955;
+$base-color: #333;   */
+
+/* Default Lite - nice
+$base-background-color: #ff9955;
+$base-color: #AA4400; */
+
+/* Gray - nice    */
+$base-font-size: 1.0em;
+
+.base-background {
+  background-color: #fefefe;
+}
+
+.base-color {
+  color: #ee6600;
+}
+
+body {
+  @extend .base-background;
+  @extend .base-color;
+
+  min-width: 800px;
+  font-size: $base-font-size;
+  /*font-family: verdana, "Lucida Grande", arial, helvetica, sans-serif;    */
+
+  font-family:ProximaNova, Helvetica, Arial, 'Lucida Grande', Verdana, sans-serif;
+  margin: 0;
+}
+
+/* header */
+
+.header {
+  height: 250px;
+  text-align: center;
+  background-color: #333;
+  background-image: url(/assets/background-tile.png);
+  border-bottom: solid 5px $default-trim-color;
+
+  >.section {
+  }
+  .padding {
+    padding: 25px;
+  }
+
+  .left {
+    float: left;
+    display: inline-block;
+  }
+
+  .right {
+    float: right;
+    display: inline-block;
+  }
+
+}
+
+.body {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+/* footer*/
+.footer {
+  color: #666;
+  font-size: $base-font-size;
+  line-height: 20px;
+}
+
+div.hr {
+  border-top: 1px solid #D45500;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+.shadow {
+  @include shadow;
+}
+
+
+/* copyright */
+
+.copyright {
+  font-size: $base-font-size * 0.75;
+}
+
+/* List item stuff */
+ol, ul, li {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Definitions */
+.definition-container {
+  text-align: left;
+
+  .word {
+    font-weight: bold;
+    font-size: $base-font-size * 1.5;
+  }
+
+  .pronunciation {
+
+  }
+
+  .type {
+
+  }
+
+  .list {
+    margin: 0;
+    padding-left: 19px;
+
+    .definition {
+      margin: 0;
+      font-size: small;
+      font-weight: lighter;
+    }
+  }
+}
+
+/* Mohojo Name/Slogan */
+.mohojo-name {
+  display: block;
+  font-weight: bold;
+  font-size: 3.0em;
+  text-align: left;
+}
+
+.mohojo-slogan {
+  display: block;
+  font-size: smaller;
+  font-style: italic;
+  text-align: left;
+  font-size: 1.25em;
+}
+
+/* Trademark */
+.tm:after {
+  content: '™';
+}
