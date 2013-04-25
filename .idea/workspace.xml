@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87d3f37f-e974-446c-989a-2ab250e376a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/mixins.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.mohojo-werks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366855762495" ignored="false" />
+    <file path="/Dummy.txt" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366858725458" ignored="false" />
     <file path="/application.rb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366577822628" ignored="false" />
     <file path="/Gemfile" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366578053632" ignored="false" />
     <file path="/default.css" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366765015444" ignored="false" />
@@ -57,7 +54,7 @@
       <file leaf-file-name="home.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="53" selection-start="742" selection-end="742" vertical-scroll-proportion="0.53539824">
+            <state line="45" column="17" selection-start="858" selection-end="858" vertical-scroll-proportion="0.80088496">
               <folding />
             </state>
           </provider>
@@ -826,12 +823,16 @@
       <created>1366855770675</created>
       <updated>1366855770675</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Backup changes.">
+      <created>1366858728546</created>
+      <updated>1366858728546</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1024,7 +1025,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="53" selection-start="742" selection-end="742" vertical-scroll-proportion="0.53539824">
+        <state line="45" column="17" selection-start="858" selection-end="858" vertical-scroll-proportion="0.80088496">
           <folding />
         </state>
       </provider>
