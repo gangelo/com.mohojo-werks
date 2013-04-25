@@ -6,7 +6,7 @@
     </list>
     <ignored path="com.mohojo-werks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366855723791" ignored="false" />
+    <file path="/Dummy.txt" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366855762495" ignored="false" />
     <file path="/application.rb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366577822628" ignored="false" />
     <file path="/Gemfile" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366578053632" ignored="false" />
     <file path="/default.css" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366765015444" ignored="false" />
@@ -819,7 +819,11 @@
       <created>1366855727971</created>
       <updated>1366855727971</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Backup changes.">
+      <created>1366855770675</created>
+      <updated>1366855770675</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
