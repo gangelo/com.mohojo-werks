@@ -4,19 +4,20 @@
 
 @import 'mixins';
 
+$padding: 10px;
+
 @mixin section {
   @include shadow;
-  @include rounded-corners-xsmall;
+  @include teardrop-corners-right-large;
   display: inline-block;
-  /*padding: 10px; */
   border: solid 2px $default-trim-color;
-  width: 150px;
+  width: 250px;
 }
 
 .section>.section-header {
-  min-height: 75px;
+  @include teardrop-corners-right-large;
+  min-height: 25px;
   background-color: #000;
-  padding: 10px;
 }
 
 .body>.section-left {
@@ -31,5 +32,18 @@
 .body>.section-right {
   @include section;
   margin-left: 25px;
+}
+
+.section-header {
+  background-image: url(/assets/background-tile.png);
+}
+
+.section-header, .section-content, .section-footer {
+  padding: $padding;
+}
+
+.section-footer {
+  background-color: $background-color-light;
+  border-top: dotted 2px $default-trim-color;
 }
 

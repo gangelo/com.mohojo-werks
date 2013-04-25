@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87d3f37f-e974-446c-989a-2ab250e376a3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/mixins.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.mohojo-werks.iws" />
@@ -16,13 +19,13 @@
     <file path="/default.css.scss" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366854789245" ignored="false" />
     <file path="/index.html.erb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366855221127" ignored="false" />
     <file path="/application_helper.rb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366802783226" ignored="false" />
-    <file path="/home.css.scss" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366855655142" ignored="false" />
+    <file path="/home.css.scss" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366858505768" ignored="false" />
     <file path="/fragment.rb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366802450683" ignored="false" />
     <file path="/_mojo_definition.html.erb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366806865293" ignored="false" />
     <file path="/definitions.css.scss" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366805651241" ignored="false" />
     <file path="/_mohojo_header.html.erb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366822518039" ignored="false" />
     <file path="/default.js" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366846103907" ignored="false" />
-    <file path="/mixins.scss" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366855146283" ignored="false" />
+    <file path="/mixins.scss" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366858161877" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +48,16 @@
       <file leaf-file-name="mixins.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="24" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+            <state line="65" column="23" selection-start="1299" selection-end="1322" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="16" selection-start="462" selection-end="462" vertical-scroll-proportion="-9.807693">
+            <state line="37" column="53" selection-start="742" selection-end="742" vertical-scroll-proportion="0.53539824">
               <folding />
             </state>
           </provider>
@@ -63,16 +66,16 @@
       <file leaf-file-name="default.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="46" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
+            <state line="43" column="54" selection-start="762" selection-end="795" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="28" selection-start="555" selection-end="569" vertical-scroll-proportion="0.40969163">
+            <state line="10" column="6" selection-start="502" selection-end="502" vertical-scroll-proportion="-5.25">
               <folding />
             </state>
           </provider>
@@ -835,7 +838,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28120518" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28120518" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994709" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1000,28 +1003,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="24" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="46" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="462" selection-end="462" vertical-scroll-proportion="-9.807693">
+        <state line="65" column="23" selection-start="1299" selection-end="1322" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="555" selection-end="569" vertical-scroll-proportion="0.40969163">
+        <state line="10" column="6" selection-start="502" selection-end="502" vertical-scroll-proportion="-5.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="54" selection-start="762" selection-end="795" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="53" selection-start="742" selection-end="742" vertical-scroll-proportion="0.53539824">
           <folding />
         </state>
       </provider>

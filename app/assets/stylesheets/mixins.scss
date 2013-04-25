@@ -23,11 +23,47 @@
   @include rounded-corners(20px);
 }
 
+/* teardrop corners */
+
+@mixin teardrop-corners-right($radius) {
+  -moz-border-radius-topright: $radius;
+  -moz-border-radius-bottomleft: $radius;
+
+  -webkit-border-top-right-radius: $radius;
+  -webkit-border-bottom-left-radius: $radius;
+
+  -khtml-border-top-right-radius: $radius;
+  -khtml-border-bottom-left-radius: $radius;
+
+  border-radius-topright: $radius;
+  border-radius-bottomleft: $radius;
+}
+
+@mixin teardrop-corners-right-xsmall {
+  @include teardrop-corners-right(5px);
+}
+
+@mixin teardrop-corners-right-small {
+  @include teardrop-corners-right(8px);
+}
+
+@mixin teardrop-corners-right-medium {
+  @include teardrop-corners-right(12px);
+}
+
+@mixin teardrop-corners-right-large {
+  @include teardrop-corners-right(20px);
+}
+
 /* shadow */
 
 @mixin shadow {
   box-shadow: 8px 8px 3px rgba(151, 151, 151, 0.65);
 }
+
+/* background colors */
+
+$background-color-light: rgba(255, 153, 17, 0.58);
 
 /* trimming */
 
