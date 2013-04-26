@@ -43,6 +43,7 @@ $padding: 10px;
 }
 
 .section-footer {
+  @include teardrop-corners-right-large;
   background-color: $background-color-light;
   border-top: dotted 2px $default-trim-color;
 }
