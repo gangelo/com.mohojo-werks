@@ -31,8 +31,28 @@ body {
   font-size: $base-font-size;
   /*font-family: verdana, "Lucida Grande", arial, helvetica, sans-serif;    */
 
-  font-family:ProximaNova, Helvetica, Arial, 'Lucida Grande', Verdana, sans-serif;
+  font-family: ProximaNova, Helvetica, Arial, 'Lucida Grande', Verdana, sans-serif;
   margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link {
+  color: $default-link-color-dark;
+}
+
+a:visited {
+  color: lighten($default-link-color-dark, 10%);
+}
+
+a:hover {
+  color: $default-link-color-dark;
+}
+
+a:active {
+  color: $default-link-color-dark;
 }
 
 /* header */
@@ -89,7 +109,6 @@ div.hr {
   @include shadow;
 }
 
-
 /* copyright */
 
 .copyright {
@@ -133,11 +152,19 @@ ol, ul, li {
 }
 
 /* Mohojo Name/Slogan */
-.mohojo-name {
+.mohojo-name-header {
   display: block;
   font-weight: bold;
   font-size: 3.0em;
   text-align: left;
+}
+
+.mohojo-name-normal {
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .mohojo-slogan {

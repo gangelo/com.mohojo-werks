@@ -1,4 +1,8 @@
 ComMohojoWerks::Application.routes.draw do
+  get "contact/new"
+
+  get "contact/create"
+
   get "home/index"
 
   # The priority is based upon order of creation:
@@ -59,4 +63,6 @@ ComMohojoWerks::Application.routes.draw do
   # match ':controller(/:action(/:id))(.:format)'
 
   root :to => "home#index"
+  match "/contact" => "contact#new"
+  match "/contact/create" => "contact#create"
 end

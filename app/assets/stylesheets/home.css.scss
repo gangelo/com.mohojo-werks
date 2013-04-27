@@ -18,6 +18,7 @@ $padding: 10px;
   @include teardrop-corners-right-large;
   min-height: 25px;
   background-color: #000;
+  background-image: url(/assets/background-tile.png);
 }
 
 .body>.section-left {
@@ -34,12 +35,13 @@ $padding: 10px;
   margin-left: 25px;
 }
 
-.section-header {
-  background-image: url(/assets/background-tile.png);
-}
-
 .section-header, .section-content, .section-footer {
   padding: $padding;
+}
+
+.section-content {
+  text-align: left;
+  min-height: 250px;
 }
 
 .section-footer {
