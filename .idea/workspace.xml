@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87d3f37f-e974-446c-989a-2ab250e376a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_homo_sapiens_definition.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_mohojo_name.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/contact.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/contact.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/contact_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/contact_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/contact_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/contact_helper_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contact/create.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contact/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_mohojo_header.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_mohojo_header.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_navigation.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/mixins.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact/new.html.erb" afterPath="$PROJECT_DIR$/app/views/contact/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.mohojo-werks.iws" />
@@ -28,9 +15,9 @@
     <file path="/Gemfile" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366578053632" ignored="false" />
     <file path="/default.css" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366765015444" ignored="false" />
     <file path="/application_controller.rb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366804539199" ignored="false" />
-    <file path="/application.html.erb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1367019201249" ignored="false" />
+    <file path="/application.html.erb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1367033506345" ignored="false" />
     <file path="/_footer.html.erb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366804118763" ignored="false" />
-    <file path="/default.css.scss" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1367027038436" ignored="false" />
+    <file path="/default.css.scss" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1367034390252" ignored="false" />
     <file path="/index.html.erb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1367027891234" ignored="false" />
     <file path="/application_helper.rb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1366802783226" ignored="false" />
     <file path="/home.css.scss" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1367026046659" ignored="false" />
@@ -43,6 +30,8 @@
     <file path="/_homo_sapiens_definition.html.erb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1367016049522" ignored="false" />
     <file path="/_mohojo_name.html.erb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1367021538703" ignored="false" />
     <file path="/a.rxml" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1367020287344" ignored="false" />
+    <file path="/new.html.erb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1367029228408" ignored="false" />
+    <file path="/_navigation.html.erb" changelist="87d3f37f-e974-446c-989a-2ab250e376a3" time="1367034379164" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,37 +51,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mixins.scss" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mixins.scss">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="50" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.68619245">
+            <state line="19" column="70" selection-start="438" selection-end="438" vertical-scroll-proportion="-8.75">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_navigation.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_navigation.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="27" selection-start="141" selection-end="141" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="2" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="100" selection-start="1692" selection-end="1692" vertical-scroll-proportion="-12.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="45" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
+            <state line="192" column="2" selection-start="2592" selection-end="2592" vertical-scroll-proportion="0.7175732">
               <folding />
             </state>
           </provider>
@@ -119,22 +101,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/definitions.css.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/_mojo_definition.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/default.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/com.mohojo-werks.js" />
         <option value="$PROJECT_DIR$/app/views/shared/_homo_sapiens_definition.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_mohojo_name.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_mohojo_header.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/mixins.scss" />
+        <option value="$PROJECT_DIR$/app/views/contact/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_navigation.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
       </list>
     </option>
   </component>
@@ -355,6 +337,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -964,18 +950,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_footer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="62" selection-start="240" selection-end="240" vertical-scroll-proportion="-4.375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_mojo_definition.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="160" selection-end="160" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="18" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" />
@@ -1007,23 +981,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="36" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="432" selection-end="432" vertical-scroll-proportion="0.49118942">
           <folding />
         </state>
       </provider>
@@ -1049,16 +1009,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="45" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="44" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="100" selection-start="1692" selection-end="1692" vertical-scroll-proportion="-12.125">
+        <state line="22" column="18" selection-start="467" selection-end="481" vertical-scroll-proportion="0.6903766">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="103" selection-start="172" selection-end="172" vertical-scroll-proportion="0.19823788">
           <folding />
         </state>
       </provider>
@@ -1066,6 +1033,29 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="50" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.68619245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="70" selection-start="438" selection-end="438" vertical-scroll-proportion="-8.75">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_navigation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="27" selection-start="141" selection-end="141" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="192" column="2" selection-start="2592" selection-end="2592" vertical-scroll-proportion="0.7175732">
           <folding />
         </state>
       </provider>

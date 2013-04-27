@@ -35,7 +35,7 @@ body {
   margin: 0;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -178,4 +178,18 @@ ol, ul, li {
 /* Trademark */
 .tm:after {
   content: '™';
+}
+
+/* navigation */
+ul.navigation-bar {
+  padding: 8px 25px 8px 8px;
+}
+
+ul.navigation-bar li {
+  display: inline;
+  font-size: $base-font-size * 1.5;
+}
+
+li.menu-seperator:before {
+  content: " | ";
 }

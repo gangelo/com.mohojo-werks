@@ -1,2 +1,9 @@
-<h1>Contact#new</h1>
-<p>Find me in app/views/contact/new.html.erb</p>
+<div>
+  <h1>Well, Hello There!</h1>
+  <p>
+    We love email!
+  </p>
+
+  To contact <%= render "shared/mohojo_name", :css_class_name => "mohojo-name bold" %> please email us at:
+  <%= @contact_email %>
+</div>
