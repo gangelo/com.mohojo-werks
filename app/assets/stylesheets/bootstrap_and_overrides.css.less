@@ -1,0 +1,191 @@
+@import "twitter/bootstrap/bootstrap";
+
+// Set the correct sprite paths
+@iconSpritePath: image-url("twitter/bootstrap/glyphicons-halflings.png");
+@iconWhiteSpritePath: image-url("twitter/bootstrap/glyphicons-halflings-white.png");
+
+// Set the Font Awesome (Font Awesome is default. You can disable by commenting below lines)
+@fontAwesomeEotPath: font-url("fontawesome-webfont.eot");
+@fontAwesomeEotPath_iefix: font-url("fontawesome-webfont.eot?#iefix");
+@fontAwesomeWoffPath: font-url("fontawesome-webfont.woff");
+@fontAwesomeTtfPath: font-url("fontawesome-webfont.ttf");
+@fontAwesomeSvgPath: font-url("fontawesome-webfont.svg#fontawesomeregular");
+
+// Font Awesome
+// @import "fontawesome/font-awesome";
+
+// Glyphicons
+//@import "twitter/bootstrap/glyphicons.less";
+
+// Your custom LESS stylesheets goes here
+//
+// Since bootstrap was imported above you have access to its mixins which
+// you may use and inherit here
+//
+// If you'd like to override bootstrap's own variables, you can do so here as well
+// See http://twitter.github.com/bootstrap/customize.html#variables for their names and documentation
+//
+// Example:
+// @link-color: #ff0000;
+
+@golden-ratio: 1.618;
+@default-app-highlight: #ccc;
+@default-app-highlight-dark: #ddd;
+@edit-color: #5CB85C;
+@delete-color: #D9534F;
+@view-color: #428BCA;
+
+.task-time-note {
+  background-color: #f9ecc3;
+  font-weight: bold;
+}
+
+.task-time-note div {
+  padding-bottom: 0px;
+}
+
+.task-started {
+  background-color: #dff0d8 !important;
+}
+
+.select-min-width {
+  min-width: 175px;
+}
+
+.btn-stop {
+  &:extend(.btn-danger);
+}
+
+.btn-logout {
+  padding-top: 0px;
+  background-color: transparent;
+}
+
+.btn-delete {
+  &:extend(.btn-danger);
+}
+
+.btn-delete-company,
+.btn-delete-project,
+.btn-delete-user,
+.btn-delete-task,
+.btn-delete-task-time {
+  &:extend(.btn-danger);
+}
+
+.btn.btn-delete-company.btn-xs,
+.btn.btn-delete-project.btn-xs,
+.btn.btn-delete-user.btn-xs,
+.btn.btn-delete-task.btn-xs,
+.btn.btn-delete-task-time.btn-xs
+ {
+  padding: 1px 5px 1px 5px !important;
+}
+
+// Extend the bootstrap .container class for the header tag.
+header, main, footer {
+  &:extend(.container);
+}
+
+footer {
+  margin-top: 12px;
+}
+
+#selected-search-option::after {
+  content: ":";
+}
+
+.nav > li.disabled-link {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.panel-body.alert-danger {
+  &:extend(.alert-danger);
+  background-color: #fff;
+  border: 0;
+}
+
+.input-group-addon-primary {
+  &:extend(.input-group-addon);
+  color: #fff;
+  background-color: #337ab7;
+  border: 1px solid: #2e6da4;
+  border: 0;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+  .login-nav {
+    float: right;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+}
+
+.border-radius(@radius){
+    .border-top-radius(@radius);
+    .border-right-radius(@radius);
+    .border-bottom-radius(@radius);
+    .border-left-radius(@radius);
+}
+
+.panel-gray {
+  &:extend(.panel-primary > .panel-heading);
+  color: #333 !important;
+  background-color: #eee !important;
+  border-color: #ccc !important;
+}
+
+.panel-gray > .panel-body {
+  background-color: #fff;
+}
+
+.panel-pad-lg {
+  padding: 15px;
+}
+
+.modal>.modal-dialog>.modal-content>.modal-body {
+  font-size: 18px;
+}
+
+.modal>.modal-dialog>.modal-content>.modal-header {
+  &.default {
+    color: #333;
+    background-color: #eee;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+
+  &.app-highlight {
+    color: #333;
+    background-color: @default-app-highlight;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+}
+
+/* Font Awesome tweeks*/
+.thumbnail > .fa.fa-xl {
+  font-size: 12em;
+  padding:9px;
+}
+
+.thumbnail > .fa.fa-md {
+  font-size: 7em;
+  padding:9px;
+}
+
+.thumbnail > .caption > .blurb {
+  min-height: 50px;
+}
