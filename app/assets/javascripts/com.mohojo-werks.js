@@ -10,7 +10,6 @@
     var Com = {
         Mohojo : {
             Werks : {
-
             }
         }
     };
