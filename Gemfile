@@ -74,3 +74,5 @@ gem 'will_paginate', '~> 3.1', '>= 3.1.6'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 #gem 'pundit', '~> 1.1'
 #gem 'devise', '~> 4.4', '>= 4.4.1'
+
+gem 'newrelic_rpm'
