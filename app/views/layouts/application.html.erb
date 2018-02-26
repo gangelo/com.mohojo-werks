@@ -1,34 +1,38 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title><%= @title %></title>
-  <%#= favicon_link_tag 'favicon.ico' %>
-  <link href="<%= image_path("favicon.ico") %>" rel="shortcut icon" />
-  <%= stylesheet_link_tag "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= content_for?(:title) ? yield(:title) : @title %></title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
+    <% if content_for? :head %>
+      <%= yield :head %>
+    <% end %>
+  </head>
+  <body>
+  <div class="header">
+    <div class="section padding left">
+      <%= render "shared/mohojo_header" %>
+    </div>
 
-<div class="header">
-  <div class="section padding left">
-    <%= render "shared/mohojo_header" %>
+    <div class="section padding right">
+      <%= render "shared/mojo_definition" %>
+    </div>
   </div>
 
-  <div class="section padding right">
-    <%= render "shared/mojo_definition" %>
+  <div style="text-align: right;">
+    <%= render "shared/navigation" %>
   </div>
-</div>
 
-<div style="text-align: right;">
-  <%= render "shared/navigation" %>
-</div>
+  <div class="body">
+    <%= yield %>
+  </div>
 
-<div class="body">
-  <%= yield %>
-</div>
+  <%= render "shared/footer" %>
 
-<%= render "shared/footer" %>
-
-</body>
+  </body>
 </html>

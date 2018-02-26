@@ -1,18 +1,5 @@
 @import 'mixins';
 
-/* Bright
-$base-background-color: #ee6600;
-$base-color: #333; */
-
-/* Lite
-$base-background-color: #ff9955;
-$base-color: #333;   */
-
-/* Default Lite - nice
-$base-background-color: #ff9955;
-$base-color: #AA4400; */
-
-/* Gray - nice    */
 $base-font-size: 1.5em;
 
 .base-background {
@@ -26,11 +13,8 @@ $base-font-size: 1.5em;
 body {
   @extend .base-background;
   @extend .base-color;
-
   min-width: 800px;
   font-size: $base-font-size;
-  /*font-family: verdana, "Lucida Grande", arial, helvetica, sans-serif;    */
-
   font-family: ProximaNova, Helvetica, Arial, 'Lucida Grande', Verdana, sans-serif;
   margin: 0;
 }
@@ -54,8 +38,6 @@ a:hover {
 a:active {
   color: $default-link-color-dark;
 }
-
-/* header */
 
 .header {
   height: 250px;
@@ -90,7 +72,6 @@ a:active {
   text-align: center;
 }
 
-/* footer*/
 .footer {
   color: #666;
   font-size: $base-font-size;
@@ -109,20 +90,18 @@ div.hr {
   @include shadow;
 }
 
-/* copyright */
-
 .copyright {
   font-size: $base-font-size * 0.75;
 }
 
-/* List item stuff */
+/*
 ol, ul, li {
   border: 0;
   margin: 0;
   padding: 0;
 }
+*/
 
-/* Definitions */
 .definition-container {
   text-align: left;
 
@@ -131,13 +110,9 @@ ol, ul, li {
     font-size: $base-font-size * 1.5;
   }
 
-  .pronunciation {
+  .pronunciation {}
 
-  }
-
-  .type {
-
-  }
+  .type {}
 
   .list {
     margin: 0;
@@ -175,12 +150,11 @@ ol, ul, li {
   font-size: 1.25em;
 }
 
-/* Trademark */
 .tm:after {
   content: '™';
 }
 
-/* navigation */
+/* Navigation */
 ul.navigation-bar {
   padding: 8px 25px 8px 8px;
 }
