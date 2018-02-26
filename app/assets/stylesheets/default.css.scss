@@ -23,6 +23,7 @@ a {
   text-decoration: none;
 }
 
+/*
 a:link {
   color: $default-link-color-dark;
 }
@@ -38,6 +39,7 @@ a:hover {
 a:active {
   color: $default-link-color-dark;
 }
+*/
 
 .header {
   height: 250px;
@@ -152,6 +154,14 @@ ol, ul, li {
 
 .tm:after {
   content: '™';
+}
+
+.sm:after {
+  content: '℠';
+}
+
+.exclaimation:after {
+  content: '!';
 }
 
 /* Navigation */

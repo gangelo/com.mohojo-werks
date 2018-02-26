@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/*
 @import 'mixins';
 
 $padding: 10px;
@@ -11,7 +12,7 @@ $padding: 10px;
   @include teardrop-corners-right-large;
   display: inline-block;
   border: solid 2px $default-trim-color;
-  width: 250px;
+  //width: 250px;
 }
 
 .section>.section-header {
@@ -27,7 +28,7 @@ $padding: 10px;
 
 .body>.section-center {
   @include section;
-  margin-left: 25px;
+  //margin-left: 25px;
 }
 
 .body>.section-right {
@@ -49,4 +50,4 @@ $padding: 10px;
   background-color: $background-color-light;
   border-top: dotted 2px $default-trim-color;
 }
-
+*/

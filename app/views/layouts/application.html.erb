@@ -16,23 +16,23 @@
   <body>
   <div class="header">
     <div class="section padding left">
-      <%= render "shared/mohojo_header" %>
+      <%= render partial: "shared/mohojo_header" %>
     </div>
 
     <div class="section padding right">
-      <%= render "shared/mojo_definition" %>
+      <%= render partial: "shared/mojo_definition" %>
     </div>
   </div>
 
   <div style="text-align: right;">
-    <%= render "shared/navigation" %>
+    <%= render partial: "shared/navigation" %>
   </div>
 
   <div class="body">
     <%= yield %>
   </div>
 
-  <%= render "shared/footer" %>
+  <%= render partial: "shared/footer" %>
 
   </body>
 </html>

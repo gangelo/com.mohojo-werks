@@ -1,6 +1,6 @@
 ComMohojoWerks::Application.routes.draw do
-  #get "contact/new"
-  #get "contact/create"
+  get 'accumoo/index'
+  get 'accumoo/privacy'
 
   get "home/index"
   get "/contact" => "contact#new"

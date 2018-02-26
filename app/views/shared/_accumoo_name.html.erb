@@ -1,0 +1,6 @@
+<%
+css_class ||= ""
+css_class = css_class + " accumoo-name" unless /accumoo-name/.match?(css_class)
+css_class.strip!
+%>
+<span class="<%= css_class %>">Accumoo</span>
