@@ -1,0 +1,18 @@
+<%
+title = local_assigns.fetch(:title, 'Information')
+html_tag = local_assigns.fetch(:html_tag, :p)
+css_class = local_assigns.fetch(:css_class, 'form-control-static col-lg-10')
+label = local_assigns.fetch(:label, '?')
+popover = local_assigns.fetch(:popover, true)
+message = local_assigns.fetch(:message, nil)
+message ||= 'The message.'
+%>
+
+<%= content_tag html_tag, class: css_class do %>
+  &nbsp;<%= label %>
+  <% if popover %>
+    &nbsp;
+    <a tabindex='0' role='button' class='anonymous-popover' style='font-size:initial;' data-toggle='popover' data-trigger='focus' title='<%= title %>' data-content='<%= message.html_safe %>'><%= content_tag :i, nil, class: 'fa fa-question-circle' %>
+    </a>
+  <% end %>
+<% end %>
