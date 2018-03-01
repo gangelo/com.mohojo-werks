@@ -33,6 +33,27 @@
 @default-orange: #ee6600;
 @default-orange-dark: #b45f06;
 
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+  .right-nav {
+    float: right;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+  .container {
+    width: 100%;
+  }
+}
+
 h1.orange,
 h2.orange,
 h3.orange {

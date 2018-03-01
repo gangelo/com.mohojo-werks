@@ -2,6 +2,22 @@
 
 $base-font-size: 1.5em;
 
+.navbar {
+ >a {
+   font-size: $base-font-size;
+  }
+
+  >.navbar-collapse>.navbar-nav {
+    >li>a {
+      font-size: $base-font-size;
+    }
+
+    >.dropdown>.dropdown-menu>li>a {
+      font-size: $base-font-size;
+    }
+  }
+}
+
 .base-background {
   background-color: #fefefe;
 }
@@ -63,7 +79,6 @@ a:active {
     float: right;
     display: inline-block;
   }
-
 }
 
 .body {

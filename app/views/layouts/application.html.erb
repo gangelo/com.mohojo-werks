@@ -14,19 +14,16 @@
     <% end %>
   </head>
   <body>
-  <div class="header">
-    <div class="section padding left">
-      <%= render partial: "shared/mohojo_header" %>
+    <div class="header">
+      <div class="section padding left">
+        <%= render partial: "shared/mohojo_header" %>
+      </div>
+      <div class="section padding right">
+        <%= render partial: "shared/mojo_definition" %>
+      </div>
     </div>
 
-    <div class="section padding right">
-      <%= render partial: "shared/mojo_definition" %>
-    </div>
-  </div>
-
-  <div style="text-align: right;">
     <%= render partial: "shared/navigation" %>
-  </div>
 
   <div class="body">
     <%= yield %>
