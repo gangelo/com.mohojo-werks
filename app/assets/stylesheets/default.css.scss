@@ -3,16 +3,20 @@
 $base-font-size: 1.5em;
 
 .navbar {
- >a {
-   font-size: $base-font-size;
-  }
-
-  >.navbar-collapse>.navbar-nav {
-    >li>a {
+  >.container {
+    >.navbar-header>a {
       font-size: $base-font-size;
     }
 
-    >.dropdown>.dropdown-menu>li>a {
+    >div>.navbar-nav>.dropdown>a {
+      font-size: $base-font-size;
+    }
+
+    >div>.navbar-nav>.dropdown>.dropdown-menu>li>a {
+      font-size: $base-font-size;
+    }
+
+    >div>.navbar-nav>li>a {
       font-size: $base-font-size;
     }
   }
