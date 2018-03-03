@@ -1,6 +1,6 @@
 @import 'mixins';
 
-$base-font-size: 1.5em;
+$base-font-size: 1.75em;
 
 .navbar {
   >.container {
@@ -39,27 +39,13 @@ body {
   margin: 0;
 }
 
-a {
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
   text-decoration: none;
 }
-
-/*
-a:link {
-  color: $default-link-color-dark;
-}
-
-a:visited {
-  color: lighten($default-link-color-dark, 10%);
-}
-
-a:hover {
-  color: $default-link-color-dark;
-}
-
-a:active {
-  color: $default-link-color-dark;
-}
-*/
 
 .header {
   height: 250px;
